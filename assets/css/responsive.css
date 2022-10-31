@@ -1,0 +1,271 @@
+@media screen and (max-width: 1499px) {
+    .banner_col_2 {
+        left: 0%;
+    }
+    .banner_col_2 .image_element {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner_col_2 .image_element > img {
+        width: 100%;
+       object-fit: cover;
+    } 
+}
+@media screen and (max-width: 1299px) {
+    .banner_col_1 {
+        left: 0%;
+        padding: 0px 15px;
+    }
+    .banner_col_2 {
+        flex: 0 0 52%;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    #header, 
+    .our_story,
+    .browse,
+    .testimonials,
+    #footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #header .header_row > div {
+        flex: 0 0 50% !important;
+    }
+    .banner_col_1 > h1 {
+        font-size: 50px;
+        line-height: 72px;
+    }
+    .banner_section {
+        background-position: 42% 60%;
+        padding-bottom: 60px;
+    }
+    .banner_section_row {
+        justify-content: flex-start;
+    }
+    .banner_col_1 {
+        flex: 0 0 50%;
+    }
+    #banner_form  {
+        row-gap: 15px;
+    }
+    .banner_col_2 {
+        flex: 0 0 45%;
+    }
+    .banner_col_2 .image_element {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .our_story {
+        padding-bottom: 60px;
+    }
+    .our_story_row {
+        column-gap: 20px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .our_story_row > .restaurent_img {
+        width: 50%;
+        height: 50%;
+        flex:  0 0 49%;
+    }
+    .our_story_row > .restaurent_img > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .our_story_col > h4 {
+        padding-bottom: 15px;
+    }
+    .our_story_col > h2 {
+        padding-bottom: 10px;
+    }
+    .browse {
+        padding-bottom: 60px;
+    }
+    main h2 {
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+    .flex_col .details {
+        padding-left: 10px;
+    }
+    .footer_column:first-child {
+        flex: 0 0 31%;
+    }
+    .footer_column {
+        flex: 0 0 19%;
+    }
+    .footer_column span:not(:last-child) {
+        margin-right: 5px;
+    }
+    .footer_column > div {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .banner_col_2 .image_element {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .footer_column p, .footer_column a {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .footer_column ul > li {
+        padding: 5px 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #header, 
+    .our_story,
+    .browse,
+    .testimonials,
+    #footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #header .header_row > div:first-child {
+        text-align: center;
+    }
+    #header .header_row > div {
+        flex: 0 0 100% !important;
+    }
+    .banner_section_row, .our_story_row, .testimonial_second_row, .second_row_browse, .footer_has_details {
+        display: block;
+    }
+    .banner_col_2 .image_element, .restaurent_img > img {
+        width: 100%;
+    }
+    .our_story {
+        padding-bottom: 70px;
+    }
+    .our_story_col > a {
+        padding: 15px 25px;
+    }
+    .our_story_col {
+        padding-top: 30px;
+    }
+    .browse {
+        padding-bottom: 30px;
+        background-position: 93% -1%;
+    }
+    .prev_next {
+        padding-top: 10px;
+    }
+    .list {
+        border-left: 0;
+    }
+    .list ul {
+        padding:0;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+    .list ul::-webkit-scrollbar {
+        display: none;
+    }
+    .list ul > li {
+        padding: 0px 12px;
+    }
+    .list li:first-child::before {
+       display: none;
+    }
+    .list li:first-child {
+        text-decoration: underline 3px #Febd00;
+        text-underline-offset: 3px;
+    }
+    .items_col {
+        margin: 60px 0px;
+    }
+    .testimonial_second_row > .flex_col {
+        padding-top: 0px !important;
+    }
+    .testimonial_second_row > .flex_col:nth-child(even) {
+        width: 300px;
+    }
+    .testimonial_second_row > .flex_col:nth-child(2) {
+        margin-left: auto;
+    }
+    .testimonial_second_row > .flex_col:nth-child(4) {
+        margin-right: auto;
+    }
+    .testimonial_second_row > .flex_col:nth-child(even) .details{
+        padding-left: 20px;
+    }
+    .testimonial_second_row > .flex_col:nth-child(even) .details .role{
+        padding-left: 5px;
+    }
+    .testimonial_first_row > h4, .testimonial_first_row > h2, .first_row_browse > h4, .first_row_browse > h2, .our_story_col > h2, .our_story_col > h4 {
+        padding-bottom: 15px;
+    }
+    .image_row {
+        height: 20px;
+    }
+    .image_row > div {
+        position: relative;
+        top: -400px;
+        left: 0%;
+        flex: 0 0 50%;
+    }
+    .image_row_row1 > img {
+        position: relative;
+        left: 20%;
+        z-index: -1;
+    }
+    .image_row_row2 > img {
+        position: relative;
+        right: 20%;
+        z-index: -1;
+    }
+    .footer_has_details {
+        padding: 50px 0px;
+    }
+    .footer_column {
+        padding-top: 0px;
+    }
+    .footer_column:first-child {
+        padding-bottom: 40px !important;
+    }
+    .footer_column:not(:last-child) {
+        padding-bottom: 20px;
+    }
+    .footer_column ul > li {
+        padding: 0px;
+    }
+    .banner_col_1 > h1 {
+        margin-bottom: 15px;
+        font-size: 42px;
+        line-height: 56px;
+    }
+    #banner_form {
+        padding-top: 15px;
+        row-gap: 15px;
+    }
+    #banner_form a {
+        padding: 6px 37px;
+    }
+    .banner_col_2 {
+        padding-top: 20px;
+    }
+    .banner_section {
+        padding-bottom: 30px;
+        background-position: 75% 33%;
+    }
+    main h2 {
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .footer_column > div {
+        padding-top: 35px;
+    }
+    #banner_form > input {
+        height: 50px;
+    }
+    main {
+        background-image: linear-gradient(to top, transparent 86%, #F8FBF5);
+    }
+}
